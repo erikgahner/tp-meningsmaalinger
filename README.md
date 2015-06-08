@@ -13,22 +13,22 @@ Denne mappe indeholder reproduktionsmateriale samt yderligere information der vi
 
 ### Indhold
 
-##### `/data/`
+#### `/data/`
 
 - `meningsmaalinger.csv` = Datasæt med følgende variable:
     + `koder` = Angiver hvem der har kodet artiklen (1 = Erik Gahner Larsen, 2 = Simon Grundt Straubinger)
     + `avis` = Angiver om artiklen er fra internettet eller trykt avis (1 = Avis, 0 = Internettet)
 
-##### `/R/`
+#### `/R/`
 
 - `meningsmaalinger-r.R` = R script brugt til at lave analyser i artiklen (_mangler_)
 - `sessionInfo.txt` = Output fra sessionInfo() i R (_mangler_)
 
-##### `/STATA/`
+#### `/STATA/`
 
 - `meningsmaalinger-stata.do` = STATA do-file brugt til at lave analyser i artiklen (_mangler_)
 
-##### `/procedure/`
+#### `/procedure/`
 
 - `codebook_danish.pdf` = Kodebog appliceret på hver artikel
 
