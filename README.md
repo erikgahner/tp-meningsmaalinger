@@ -32,12 +32,6 @@ Denne mappe indeholder reproduktionsmateriale samt yderligere information der vi
 
 - `codebook_danish.pdf` = Kodebog appliceret på hver artikel
 
-#### `/review/` 
-
-- `referee_1.pdf` = Kommentarer fra reviewer 1
-- `referee_2.pdf` = Kommentarer fra reviewer 2
-- `referee_response.pdf` = Svar til reviewer 1 og 2
-
 #### `/paper/` 
 
 - `2012meningsmaalinger.pdf` = Artiklen som publiceret i _Tidsskriftet Politik_
