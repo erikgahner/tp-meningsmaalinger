@@ -16,17 +16,18 @@ Denne mappe indeholder reproduktionsmateriale samt yderligere information der vi
 #### `/data/`
 
 - `meningsmaalinger.csv` = Datasæt med følgende variable:
+    + `id` = Unikt artikel ID
     + `koder` = Angiver hvem der har kodet artiklen (1 = Erik Gahner Larsen, 2 = Simon Grundt Straubinger)
     + `avis` = Angiver om artiklen er fra internettet eller trykt avis (1 = Avis, 0 = Internettet)
 
 #### `/R/`
 
-- `meningsmaalinger-r.R` = R script brugt til at lave analyser i artiklen (_mangler_)
+- `meningsmaalinger-r.R` = R script brugt til at lave analyser i artiklen
 - `sessionInfo.txt` = Output fra sessionInfo() i R (_mangler_)
 
 #### `/STATA/`
 
-- `meningsmaalinger-stata.do` = STATA do-file brugt til at lave analyser i artiklen (_mangler_)
+- `meningsmaalinger-stata.do` = STATA do-file brugt til at lave analyser i artiklen
 
 #### `/procedure/`
 
@@ -35,11 +36,4 @@ Denne mappe indeholder reproduktionsmateriale samt yderligere information der vi
 #### `/paper/` 
 
 - `2012meningsmaalinger.pdf` = Artiklen som publiceret i _Tidsskriftet Politik_
-
-### Sessionsinfo (`R`)
-
-Analyserne er senest repoduceret i [RStudio](http://www.rstudio.com/) (Version 0.98.1103) med den følgende R session:
-
-```
-## 
-```
+- `2012meningsmaalinger.bib` = BibTeX information
