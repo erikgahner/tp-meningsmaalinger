@@ -1,3 +1,11 @@
+***
+*
+* Reproduktionsmateriale til "Mediernes formidling af meningsmålinger: Indholdsanalyse af folketingsvalg, 2005-2011"
+* - Erik Gahner Larsen (erikgahner@gmail.com)
+* - Simon Grundt Straubinger (simon.wismar@gmail.com)
+* 
+***
+
 * Importer data
 import delimited ..\data\meningsmaalinger.csv
 
