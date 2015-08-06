@@ -8,7 +8,7 @@ Denne mappe indeholder reproduktionsmateriale samt yderligere information der vi
 
 ### Forfattere/kontakt
 
- - Erik Gahner Larsen, Institut for Statskundskab, Syddansk Universitet, erikgahner@gmail.com
+ - Erik Gahner Larsen, erikgahner@gmail.com
  - Simon Grundt Straubinger, simon.wismar@gmail.com
 
 ### Indhold
@@ -17,21 +17,32 @@ Denne mappe indeholder reproduktionsmateriale samt yderligere information der vi
 
 - `meningsmaalinger.csv` = Datasæt med følgende variable:
     + `id` = Unikt artikel ID
-    + `koder` = Angiver hvem der har kodet artiklen (1 = Erik Gahner Larsen, 2 = Simon Grundt Straubinger)
+    + `koder` = Angiver hvem der har kodet artiklen (Erik Gahner Larsen eller Simon Grundt Straubinger)
     + `avis` = Angiver om artiklen er fra internettet eller trykt avis (1 = Avis, 0 = Internettet)
+    + `medieaktoer` = Angiver hvilket medie, der har publiceret artiklen (Jyllands-Posten, Politiken, Berlingske eller Ekstra-Bladet)
+    + `valg` = Angiver om artiklen er fra valgkampen 2005, 2007 eller 2011
+    + `laengde` = Angiver længden på artiklen (ord)
+    + `aktoer` = Angiver hvilke fortolkningsaktører, der nævnes (Ingen, politikere, eksperter eller begge)
+    + `institut` = Metodisk information: Analyseinstitut/organisation
+    + `medie` = Metodisk information: Medie meningsmålingen er foretaget for
+    + `stikproeve` = Metodisk information: Stikprøvestørrelsen
+    + `ordlyd` = Metodisk information: Spørgsmålsformuleringens ordlyd
+    + `usikkerhed` = Metodisk information: Statistisk usikkerhed
+    + `indsamling` = Metodisk information: Perioden for dataindsamling
+    + `metode` = Metodisk information: Anvendte metode til indsamling af data
 
 #### `/R/`
 
-- `meningsmaalinger-r.R` = R script brugt til at lave analyser i artiklen
-- `sessionInfo.txt` = Output fra sessionInfo() i R (_mangler_)
+- `meningsmaalinger-r.R` = R script til at reproducere resultaterne
+- `sessionInfo.txt` = Output fra sessionInfo() i R
 
 #### `/STATA/`
 
-- `meningsmaalinger-stata.do` = STATA do-file brugt til at lave analyser i artiklen
+- `meningsmaalinger-stata.do` = STATA do-file til at reproducere resultaterne
 
 #### `/procedure/`
 
-- `codebook_danish.pdf` = Kodebog appliceret på hver artikel
+- `codebook_danish.pdf` = Kodebog på dansk, appliceret på hver artikel
 
 #### `/paper/` 
 
