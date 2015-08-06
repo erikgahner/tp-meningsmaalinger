@@ -1,0 +1,18 @@
+R version 3.2.0 (2015-04-16)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 7 x64 (build 7601) Service Pack 1
+
+locale:
+[1] LC_COLLATE=Danish_Denmark.1252  LC_CTYPE=Danish_Denmark.1252   
+[3] LC_MONETARY=Danish_Denmark.1252 LC_NUMERIC=C                   
+[5] LC_TIME=Danish_Denmark.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods  
+[7] base     
+
+other attached packages:
+[1] lmtest_0.9-34  zoo_1.7-12     sandwich_2.3-3
+
+loaded via a namespace (and not attached):
+[1] tools_3.2.0     grid_3.2.0      lattice_0.20-31
