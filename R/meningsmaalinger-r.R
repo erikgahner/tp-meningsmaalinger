@@ -1,5 +1,12 @@
-# Script til
+###
+#
+# Reproduktionsmateriale til "Mediernes formidling af meningsmålinger: Indholdsanalyse af folketingsvalg, 2005-2011"
+# - Erik Gahner Larsen (erikgahner@gmail.com)
+# - Simon Grundt Straubinger (simon.wismar@gmail.com)
+# 
+###
 
+# Åben libraries
 library(sandwich)
 library(zoo)
 library(lmtest)
@@ -26,3 +33,6 @@ regression <- lm(index ~ avis + as.factor(valg) + laengde + as.factor(aktoeranta
 
 # Få resultaterne som rapporteret i tabel 4 (med robuste standardfejl)
 coeftest(regression, vcov = vcovHC(regression, "HC1"))
+
+# Lav sessionInfo.txt
+writeLines(capture.output(sessionInfo()), "sessionInfo.txt")
